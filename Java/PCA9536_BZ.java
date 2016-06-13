@@ -26,7 +26,7 @@ public class PCA9536_BZ
 		{
 			// Select output port register
 			// Logic HIGH on each pin
-			device.write(0x01, (byte)(0xF0 | (i << i)));
+			device.write(0x01, (byte)(0xF0 | (1 << i)));
 			
 			if(i != 3)
 			{
