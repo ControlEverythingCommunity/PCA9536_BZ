@@ -8,7 +8,7 @@ This Device is available from ControlEverything.com [SKU: PCA9536_I2CBZ]
 
 https://www.controleverything.com/content/Digital-IO?sku=PCA9536_I2CBZ
 
-This Sample code can be used with Raspberry pi, Arduino and Particle.
+This Sample code can be used with Raspberry pi, Arduino, Particle and Beaglebone Black.
 
 ## Java
 Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
@@ -62,4 +62,16 @@ Verify and flash the code on your Photon. Code output is shown in logs at dashbo
 
 https://dashboard.particle.io/user/logs
 
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+```cpp
+$>gcc PCA9536_BZ.c -o PCA9536_BZ
+```
+Run the c program.
+```cpp
+$>./PCA9536_BZ
+```
 #####The code output shows output logic on the respective pins and a buzzer sound.
