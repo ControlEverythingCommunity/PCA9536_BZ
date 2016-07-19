@@ -30,7 +30,7 @@ void main()
 	config[1] = 0xF0;
 	if(write(file, config, 2) != 2)
 	{
-		printf("Erorr : Input/output Erorr \n");
+		printf("Error : Input/Output error \n");
 		exit(1);
 	}
 
