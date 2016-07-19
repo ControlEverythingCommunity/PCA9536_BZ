@@ -12,7 +12,7 @@ bus = smbus.SMBus(1)
 
 # PCA9536 address, 0x41(65)
 # Select configuration register, 0x03(03)
-#		0xFF(255)	All pins configured as inputs
+#		0xF0(240)	All pins configured as inputs
 bus.write_byte_data(0x41, 0x03, 0xF0)
 
 for i in range(0, 4) :
