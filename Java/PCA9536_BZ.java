@@ -20,7 +20,7 @@ public class PCA9536_BZ
 
 		// Select configuration register
 		// All pins configured as outputs
-		device.write(0x03, (byte)0xF0));
+		device.write(0x03, (byte)0xF0);
 
 		for(int i = 0; i < 4; i++)
 		{
