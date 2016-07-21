@@ -22,7 +22,7 @@ for i in range(0, 4) :
 	bus.write_byte_data(0x41, 0x01, (0xF0 | (1 << i)))
 	
 	if i != 3:
-		print "I/O Pin %d State is HIGH and BUZZER is OFF %n " %i
+		print "I/O Pin %d State is HIGH and BUZZER is OFF " %i
 	else :
-		print "I/O Pin %d State is HIGH and BUZZER is ON %n " %i
+		print "I/O Pin %d State is HIGH and BUZZER is ON " %i
 	time.sleep(1)
