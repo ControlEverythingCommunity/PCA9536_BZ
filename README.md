@@ -8,7 +8,7 @@ This Device is available from ControlEverything.com [SKU: PCA9536_I2CBZ]
 
 https://www.controleverything.com/content/Digital-IO?sku=PCA9536_I2CBZ
 
-This Sample code can be used with Raspberry pi, Arduino, Particle and Beaglebone Black.
+This Sample code can be used with Raspberry pi, Arduino, Particle, Beaglebone Black and Onion Omega.
 
 ## Java
 Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
