@@ -78,4 +78,24 @@ Run the c program.
 ```cpp
 $>./PCA9536_BZ
 ```
+
+## Onion Omega
+
+Get Started and setting up the Onion Omega according to steps provided at :
+
+https://wiki.onion.io/Get-Started
+
+To install the Python module, run the following commands:
+```cpp
+opkg update
+```
+```cpp
+opkg install python-light pyOnionI2C
+```
+
+Download (or git pull) the code in Onion Omega. Run the program.
+
+```cpp
+$> python PCA9536_BZ.py
+```
 #####The code output shows output logic on the respective pins and a buzzer sound.
